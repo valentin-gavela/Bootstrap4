@@ -76,6 +76,9 @@ body {
 }
 
 .modal {
+    .modal-body {
+        background: $background-pale;
+    }
     .modal-header {
         background: $background-dark;
         .modal-title {
@@ -84,9 +87,5 @@ body {
         .close {
             color: floralwhite;
         }
-    }
-
-    .modal-body {
-        background: $background-pale;
     }
 }
